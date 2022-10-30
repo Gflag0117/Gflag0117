@@ -6,70 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>g-flag</title>
     <link rel="shortcut icon" href="icon.webp">
-    <style>
-        
-        body,html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            /* background: url(./images/bgc.jfif) no-repeat; */
-            background:linear-gradient(-20deg,#dcb0ed 0%, #99c99c 100%);
-            overflow: hidden;
-        }
-
-        .box {
-            color: rgb(6, 173, 151);
-            width: 450px;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 40px;
-            text-align: center;
-            margin: auto;
-            margin-top: 5%;
-            font-family: 'Century Gothic', sans-serif;
-        }
-
-        .box .box-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-        }
-
-        .box h1 {
-            font-size: 50px;
-            letter-spacing: 4px;
-            font-weight: 400;
-        }
-
-        .box h2 {
-            font-size: 30px;
-            letter-spacing: 3px;
-            font-weight: 300;
-
-        }
-
-        .one {
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: 600;
-            color: grey;
-        }
-
-        .one:hover {
-            color: rgb(6, 173, 151);
-        }
-    </style>
+    <link rel="stylesheet" href="./blog 2/css/blog-2.css">
 </head>
 
 <body>
-    <div class="box">
-        <img src="./images/logo.jpg" alt="" class="box-img">
-        <h1 class="name">g-flag</h1>
-        <h2>Web Designer</h2>
-        <h3>Welcome to my personal website!</h3>
-        <h3>If you want to know more about me,please click this</h3>
-        <a href="#" class="one">g-flag</a>
+    <div id="box">
+        <!-- 个人资料卡片 -->
+        <div class="meBox">
+            <!-- 头像 -->
+            <div class="headPhoto"></div>
+            <!-- 介绍 -->
+            <div class="meBox-title">
+                <p>I'm g-flag</p>
+                <div class="fg"></div>
+            </div>
+            <div class="meBox-text">
+                <p>一条咸鱼🤏</p>
+                <p>爱好喝酒，计算机</p>
+                <p>瞎折腾浪费时间最在行</p>
+                <p>最爱🍍</p>
+            </div>
+            <!-- 两个按钮 -->
+            <div class="meBox-Button">
+                <a href="#">关于</a>
+                <a href="#">联系</a>
+            </div>
+        </div>
+
+        <!-- 伪终端介绍 -->
+        <div id="cmdBox">
+            <!-- 第一个终端 -->
+            <div class="cmd ">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>lovexhj - bash</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@nutssss</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./links.sh</span>
+                    <p>我的其他站点：</p>
+                    <ul class="ul">
+                        <li><a href="https://g-flag.github.io/What-to-eat/">今天吃啥呀</a></li>
+                        <li><a href="#">Love</a></li>
+                        <li><a href="#">Note</a></li>
+                        <li><a href="#">Mc</a></li>
+                        <li><a href="#">McBlog</a></li>
+                    </ul>
+                    <span style="color: rgb(0, 190, 0);">root@nutssss</span>
+                    <span style="color: blue;">~</span>
+                </div>
+            </div>
+            <!-- 第二个终端 -->
+            <div class="cmd cmd2">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>lovexhj - bash</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@nutssss</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./天气</span>
+                    <br />
+                    <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tb&skin=pitaya" frameborder="0"
+                        width="350" height="24" allowtransparency="true"></iframe>
+                    <br />
+                    <span style="color: rgb(0, 190, 0);">root@nutssss</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./README</span>
+                    <p>爱好计算机，会去自学自己感兴趣的一切东西</p>
+                    <p>略懂java、web网页开发；爱好折腾去解决一切问题</p>
+                    <p>这条路我才刚刚迈开了我的第一步</p>
+                    <p>路上的坎一定会非常多，但</p>
+                    <p>在我眼里</p>
+                    <p>没有什么问题是尝试不能解决的，如果有那就多尝试几次甚至上百次</p>
+                    <p>即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气</p>
+                    <span style="color: rgb(0, 190, 0);">root@nutssss</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">respect/过去的自己/</span>
+                </div>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>
